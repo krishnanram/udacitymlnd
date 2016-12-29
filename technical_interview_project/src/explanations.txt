@@ -1,0 +1,233 @@
+# question1
+------------
+
+
+    ********* OLD logic
+        As you can see in question1.py, following are three for loops
+          for c in s1:
+                ...
+          for c in s2:
+                ...
+          for c in s2 :
+                ...
+        Analysis
+
+        Time complexity
+
+            => O(s1) + 2 O(s2)
+            => O(s1+s2)
+            => O(n) - It is a linear
+
+        Space complexity
+
+            => Uses counter collection - dict data structure to hold n elements
+            => O(n)
+
+    ********* New optiomized logic based on rolling window
+
+        def is_anagram_best_sol(s, p) :
+            res = []
+            pCounter = Counter(p)
+            sCounter = Counter(s[:len(p) - 1])
+            for i in range(len(p) - 1, len(s)):
+                sCounter[s[i]] += 1  # include a new char in sliding window
+                if sCounter == pCounter:
+                    return True
+                sCounter[s[i - len(p) + 1]] -= 1  # decrease the count of oldest char in the window
+                if sCounter[s[i - len(p) + 1]] == 0:
+                    del sCounter[s[i - len(p) + 1]]  # remove the char from window if count is 0
+
+            return False
+
+        Analysis
+
+        Time complexity
+
+            => It scans s2 char in rollowing window fashion for the chars from s1. It will exit if any of s1 char not
+               found.  The time complexity is O(len(s2))
+
+        Space complexity
+
+            => Uses counter collection for storing s1, s2 count
+
+
+# question2
+-------------
+
+As you can see in question2.py, following are code snippets
+
+
+Time complexity
+
+
+    for c in s1:
+        counter[c] += 1
+    => O(s1)
+
+    for c in counter :
+    => O(s1)
+
+    for s in twoCounter :
+        inS = inS + str(s)
+    => O(s1)
+
+------- Previous code taking n! time and space
+
+    permCom = nPrUtil(inS, len(inS),  1)
+    for s in permCom :
+        for o in oneCounter :
+            res.append(s + o + revert(s))
+    =>  ~ O(k*n!)
+        As of now, my nPrUtil code computes all possible permuations of the palindromic String and hence the time is ~ O(k*n!).
+         Total => 3 O(s1)  + O(k*n!) + O(n2)
+
+
+
+------- New code taking much less time.  The problem given is to find out longest palindromic string. So, we can ignore smaller strings.
+------- For example, given abcd as string input, longest palindromic string is abcdbca...   We can ignore ada, abdba etc...
+
+    In the code below, nPrUtil method now implements the lookup for strings matching the length specified. Also, it is a iterator based
+    and get the first element only.  In short, res array below will contain only ONE element O(1) - one instance of longest element.
+    In case if you want ALL possible longest substring, the space required to strore in res array is much less than n!.
+
+    permCom = nPrUtil(inS, len(inS),  1)
+    s = permCom.next()
+    for o in oneCounter :
+        res.append(s + o + revert(s))
+
+
+        But, we are intesested ONLY max length and not actual strings, we can optimize to linerar time..
+
+    for s in permCom :
+       for o in oneCounter :
+           res.append(s + o + revert(s))
+
+
+
+Space complexity
+
+     => Uses 3 counter collection - dict data structure to hold maximum n elements
+     => Uses all possible permutations (we can optimize this if we do not need to return all possible permutations)
+     => 3 O(n) + n! ( to store all possible permutations)
+     => n!
+
+ Based on the new logic discussed above, the space complexity is reduced to less than n!. res array would contain O(1) in the case
+ of the method returning one instance of longest possible palindromic string.
+
+
+
+# question3
+-------------
+
+gdict = {
+    'A': [('B', 2), ('C', 1)],
+    'B': [('A', 2), ('C', 5)],
+    'C': [('B', 5)]
+}
+
+
+I have implemented Kruskal’s Algorithm to find the MST. Kruskal’s Algorithm builds the spanning tree by adding edges one by one into a growing spanning tree. Kruskal's algorithm follows greedy approach as in each iteration it finds an edge which has least weight and add it to the growing spanning tree.
+
+Algorithm Steps:
+Sort the graph edges with respect to their weights.
+Start adding edges to the MST from the edge with the smallest weight until the edge of the largest weight.
+Only add edges which doesn't form a cycle , edges which connect only disconnected components.
+
+
+This could be done using DFS which starts from the first vertex, then
+check if the second vertex is visited or not. But DFS will make time complexity large as it has an order of
+O(V+E). However, optimized  Kruskal algorithm uses disjoint sets to identfy the overlapping/cyclic nature of edges
+in which case, it does not need to process all edges.
+
+Time complexity
+
+In summary, the time complexity of optimzied Kruskal is < O(V+E)
+
+Space complexity
+
+    => space for V nodes + E edges
+    => O(V+E)
+
+    In a fully connected graph, there is an edge between every pair of nodes so both adjacency list and
+    matrix will require n*n of space, but for every other case - an adjacency list will be smaller.
+
+
+#question4
+------------
+
+I have used array as an input. The algorithm first costruct the tree, derive the preorder list and then navigate
+the preordered list to find the common path
+
+    OLD logic
+    ------------------------------------
+    Time complexity
+
+    Total time taken to find the common ancestor is sum of
+
+    => time to construct the BST tree + pre order + time to find the common root
+    => O(n) + O(n^2) + O (log (n))
+    => ~ O(n^2)
+
+    Space complexity
+
+    => O(n)
+
+
+    new logic
+    ---------------------
+
+    def findCommonParent(array1,array2):
+        aCounter = Counter(array1)
+        for s in array2 :
+            if aCounter[s] == 1 :
+                return s
+
+
+    def findMatchPath(parent, node, search_item):
+        result = []
+        status = False
+
+        if node.item == search_item :
+            result.append(node.item)
+            return (True, result)
+
+        if node.left != None :
+            (status, result) = findMatchPath(node, node.left, search_item)
+            if status == True :
+                result.append(node.item)
+                return (True, result)
+
+        if node.right != None :
+            (status, result) = findMatchPath(node, node.right, search_item)
+            if status == True:
+                result.append(node.item)
+                return (True, result)
+
+        return (status, result)
+
+
+
+        ** new logic navigates BST Tree directly. Instead of constructing pre-order list from BST, the
+        logic now gets the traversal path for both input nodes (say 3,11) and calls findMatchPath to get the path in the list form
+        Finally findCommonParent figures out the closest path.
+
+        Time complexity
+            => time to construct the BST tree + time to get parentpath + time to find the common root
+            => O(n) + O(log n) + O (n)
+            => ~ O(n log n)
+
+        Space complexity
+            => O(n) for BST and parentpath
+
+#question5
+-----------
+
+Time complexity
+
+The logic uses two pointers and navigate up to the end. Hence the time complexity is
+O(n)
+
+
+Space complexity
+
+=> We use constant pointers to naviate the list. Hence the space complexity is O(1)
