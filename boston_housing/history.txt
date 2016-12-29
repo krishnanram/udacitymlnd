@@ -1,0 +1,11 @@
+# Project 1: Model Evaluation & Validation
+## Predicting Boston Housing Prices
+
+first submit : 05/15
+second submit : 05/24
+
+This zip file contains
+
+ * Updated python book addressing the comment/feedback on the first submittion on 05/15
+ * boston_housing.html
+~
