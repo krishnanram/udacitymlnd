@@ -1,0 +1,123 @@
+{
+
+
+   "weeklyTradeStrategy_learningAgent1":{
+      "positionSizer"           :"rebalance.LiquidateRebalancePositionSizer",
+      "riskManager"             :"example.ExampleRiskManager",
+      "portfolioHandler"        :"portfolio_handler.PortfolioHandler",
+      "complianceHandler"       :"example.ExampleCompliance",
+      "executionHandler"        :"ib_simulated.IBSimulatedExecutionHandler",
+      "title"                   :"weeklyTradeStrategy_learningAgent1",
+      "tearsheetStatistics"     :"tearsheet.TearsheetStatistics",
+      "displayStrategy"         :"DisplayStrategy",
+      "strategyHandler"         :"weeklyTradeStrategy",
+      "learningHandler"         :"learningAgent1"
+   },
+   "monthlyTradeStrategy_learningAgent1":{
+      "positionSizer"           :"rebalance.LiquidateRebalancePositionSizer",
+      "riskManager"             :"example.ExampleRiskManager",
+      "portfolioHandler"        :"portfolio_handler.PortfolioHandler",
+      "complianceHandler"       :"example.ExampleCompliance",
+      "executionHandler"        :"ib_simulated.IBSimulatedExecutionHandler",
+      "title"                   :"monthlyTradeStrategy_learningAgent1",
+      "tearsheetStatistics"     :"tearsheet.TearsheetStatistics",
+      "displayStrategy"         :"DisplayStrategy",
+      "strategyHandler"         :"monthlyTradeStrategy",
+      "learningHandler"         :"learningAgent1"
+   },
+   "quaterlyTradeStrategy_learningAgent1":{
+      "positionSizer"           :"rebalance.LiquidateRebalancePositionSizer",
+      "riskManager"             :"example.ExampleRiskManager",
+      "portfolioHandler"        :"portfolio_handler.PortfolioHandler",
+      "complianceHandler"       :"example.ExampleCompliance",
+      "executionHandler"        :"ib_simulated.IBSimulatedExecutionHandler",
+      "title"                   :"quaterlyTradeStrategy_learningAgent1",
+      "tearsheetStatistics"     :"tearsheet.TearsheetStatistics",
+      "displayStrategy"         :"DisplayStrategy",
+      "strategyHandler"         :"quaterlyTradeStrategy",
+      "learningHandler"         :"learningAgent1"
+   },
+
+
+
+
+
+
+
+    "weeklyTradeStrategy_randomActionAgent":{
+      "positionSizer"           :"rebalance.LiquidateRebalancePositionSizer",
+      "riskManager"             :"example.ExampleRiskManager",
+      "portfolioHandler"        :"portfolio_handler.PortfolioHandler",
+      "complianceHandler"       :"example.ExampleCompliance",
+      "executionHandler"        :"ib_simulated.IBSimulatedExecutionHandler",
+      "title"                   :"weeklyTradeStrategy_randomActionAgent",
+      "tearsheetStatistics"     :"tearsheet.TearsheetStatistics",
+      "displayStrategy"         :"DisplayStrategy",
+      "strategyHandler"         :"weeklyTradeStrategy",
+      "learningHandler"         :"randomActionAgent"
+   },
+   "monthlyTradeStrategy_randomActionAgent":{
+      "positionSizer"           :"rebalance.LiquidateRebalancePositionSizer",
+      "riskManager"             :"example.ExampleRiskManager",
+      "portfolioHandler"        :"portfolio_handler.PortfolioHandler",
+      "complianceHandler"       :"example.ExampleCompliance",
+      "executionHandler"        :"ib_simulated.IBSimulatedExecutionHandler",
+      "title"                   :"monthlyTradeStrategy_randomActionAgent",
+      "tearsheetStatistics"     :"tearsheet.TearsheetStatistics",
+      "displayStrategy"         :"DisplayStrategy",
+      "strategyHandler"         :"monthlyTradeStrategy",
+      "learningHandler"         :"randomActionAgent"
+   },
+   "quaterlyTradeStrategy_randomActionAgent":{
+      "positionSizer"           :"rebalance.LiquidateRebalancePositionSizer",
+      "riskManager"             :"example.ExampleRiskManager",
+      "portfolioHandler"        :"portfolio_handler.PortfolioHandler",
+      "complianceHandler"       :"example.ExampleCompliance",
+      "executionHandler"        :"ib_simulated.IBSimulatedExecutionHandler",
+      "title"                   :"quaterlyTradeStrategy_randomActionAgent",
+      "tearsheetStatistics"     :"tearsheet.TearsheetStatistics",
+      "displayStrategy"         :"DisplayStrategy",
+      "strategyHandler"         :"quaterlyTradeStrategy",
+      "learningHandler"         :"randomActionAgent"
+   },
+
+
+
+
+    "weeklyTradeStrategy_randomLearningAgent":{
+      "positionSizer"           :"rebalance.LiquidateRebalancePositionSizer",
+      "riskManager"             :"example.ExampleRiskManager",
+      "portfolioHandler"        :"portfolio_handler.PortfolioHandler",
+      "complianceHandler"       :"example.ExampleCompliance",
+      "executionHandler"        :"ib_simulated.IBSimulatedExecutionHandler",
+      "title"                   :"weeklyTradeStrategy_randomLearningAgent",
+      "tearsheetStatistics"     :"tearsheet.TearsheetStatistics",
+      "displayStrategy"         :"DisplayStrategy",
+      "strategyHandler"         :"weeklyTradeStrategy",
+      "learningHandler"         :"randomLearningAgent"
+   },
+   "monthlyTradeStrategy_randomLearningAgent":{
+      "positionSizer"           :"rebalance.LiquidateRebalancePositionSizer",
+      "riskManager"             :"example.ExampleRiskManager",
+      "portfolioHandler"        :"portfolio_handler.PortfolioHandler",
+      "complianceHandler"       :"example.ExampleCompliance",
+      "executionHandler"        :"ib_simulated.IBSimulatedExecutionHandler",
+      "title"                   :"monthlyTradeStrategy_randomLearningAgent",
+      "tearsheetStatistics"     :"tearsheet.TearsheetStatistics",
+      "displayStrategy"         :"DisplayStrategy",
+      "strategyHandler"         :"monthlyTradeStrategy",
+      "learningHandler"         :"randomLearningAgent"
+   },
+   "quaterlyTradeStrategy_randomLearningAgent":{
+      "positionSizer"           :"rebalance.LiquidateRebalancePositionSizer",
+      "riskManager"             :"example.ExampleRiskManager",
+      "portfolioHandler"        :"portfolio_handler.PortfolioHandler",
+      "complianceHandler"       :"example.ExampleCompliance",
+      "executionHandler"        :"ib_simulated.IBSimulatedExecutionHandler",
+      "title"                   :"quaterlyTradeStrategy_randomLearningAgent",
+      "tearsheetStatistics"     :"tearsheet.TearsheetStatistics",
+      "displayStrategy"         :"DisplayStrategy",
+      "strategyHandler"         :"quaterlyTradeStrategy",
+      "learningHandler"         :"randomLearningAgent"
+   }
+}

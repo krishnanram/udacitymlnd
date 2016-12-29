@@ -1,0 +1,2 @@
+
+./runOptimalParams.sh experiment2 RandomActionAgent 0.5 0.5 0.5 10

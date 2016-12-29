@@ -1,0 +1,8 @@
+
+
+first submit : 11//15
+second submit :11/24
+
+This zip file contains
+
+ * Updated python book addressing the comment/feedback on the first submittion on 11/15

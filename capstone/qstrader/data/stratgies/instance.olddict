@@ -1,0 +1,205 @@
+{
+    "instance0" : {
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.6,
+                            "AGG": 0.4
+                            },
+        "benchmark"       : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "alternateBuySell_randomActionAgent",
+        "equity"          : 50000.00,
+        "status"          : "A",
+        "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 2
+     },
+
+    "instance1_plugindef1" : {
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.6,
+                            "AGG": 0.4
+                            },
+        "benchmark"       : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "plugindef1",
+        "equity"          : 50000.00,
+        "status"          : "D",,
+        "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 2
+     },
+
+     "instance1_plugindef2" : {
+     "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.6,
+                            "AGG": 0.4
+                            },
+        "benchmark"      : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "plugindef2",
+        "equity"          : 50000.00,
+        "status"           : "A",
+        "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 10
+     },
+
+     "instance2_plugindef1" : {
+        "experiment"    : "experiment1",
+         "tickerWeights" : {
+                            "SPY": 0.20,
+                            "IJS": 0.05,
+                            "EFA": 0.15,
+                            "EEM": 0.05,
+                            "AGG": 0.20,
+                            "JNK": 0.05,
+                            "DJP": 0.10,
+                            "GLD": 0.20
+                        },
+        "benchmark"      : "SPY",
+        "startDate"       : "Jan 2015 12:00AM",
+        "endDate"         : "Jan 2017 12:00AM",
+        "strategy"        : "plugindef1",
+        "equity"          : 100000.00,
+        "status"           : "A",
+       "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 2
+     },
+
+    "instance2_plugindef2" : {
+
+        "experiment"    : "experiment1",
+         "tickerWeights" : {
+                            "SPY": 0.20,
+                            "IJS": 0.05,
+                            "EFA": 0.15,
+                            "EEM": 0.05,
+                            "AGG": 0.20,
+                            "JNK": 0.05,
+                            "DJP": 0.10,
+                            "GLD": 0.20
+                        },
+        "benchmark"      : "SPY",
+        "startDate"       : "Jan 2015 12:00AM",
+        "endDate"         : "Jan 2017 12:00AM",
+        "strategy"        : "plugindef2",
+        "equity"          : 100000.00,
+        "status"           : "D",
+         "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 2
+     },
+
+    "instance3_plugindef1" : {
+
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.8,
+                            "GLD": 0.2
+                            },
+        "benchmark"      : "SPY",
+        "startDate"       : "Aug 2010 12:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "plugindef1",
+        "equity"          : 50000.00,
+        "status"           : "A",
+       "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 2
+     },
+    "instance3_plugindef2" : {
+
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.8,
+                            "GLD": 0.2
+                            },
+        "benchmark"      : "SPY",
+        "startDate"       : "Aug 2010 12:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "plugindef2",
+        "equity"          : 50000.00,
+        "status"           : "A",
+       "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 2
+     },
+
+     "instance3" : {
+
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "CSCO": 0.5,
+                            "GOOG": 0.3,
+                            "SPY": 0.2
+                            },
+        "benchmark"      : "SPY",
+        "startDate"       : "Aug 2010 12:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "plugindef1",
+        "equity"          : 50000.00,
+        "status"           : "D",
+        "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 2
+     },
+
+     "instance4" : {
+
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.7,
+                            "GLD": 0.3
+                            },
+        "benchmark"      : "SPY",
+        "startDate"       : "Dec 2012 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "plugindef1",
+        "equity"          : 50000.00,
+        "status"           : "D",
+        "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 1
+     },
+
+     "instance5" : {
+
+         "experiment"    : "experiment1",
+         "tickerWeights" : {
+                            "SPY": 0.125,
+                            "IJS": 0.125,
+                            "EFA": 0.125,
+                            "EEM": 0.125,
+                            "AGG": 0.125,
+                            "JNK": 0.125,
+                            "DJP": 0.125,
+                            "RWR": 0.125
+                        },
+        "benchmark"      : "SPY",
+        "startDate"       : "Jan 2013 12:00AM",
+        "endDate"         : "Jan 2017 12:00AM",
+        "strategy"        : "plugindef1",
+        "equity"          : 100000.00,
+        "status"           : "D",
+        "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 1
+     }
+}

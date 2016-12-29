@@ -1,0 +1,4 @@
+#!/bin/sh
+export PYTHONPATH=${PYTHONPATH}:/opt/git/personal/machinelearning/projects/trading/mycapstone/qstrader/
+/bin/rm out.log
+python mainDriver.py 

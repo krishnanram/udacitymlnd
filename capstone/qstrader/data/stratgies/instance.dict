@@ -1,0 +1,199 @@
+{
+
+    "instance1" : {
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.7,
+                            "GDX": 0.1,
+                            "GLD": 0.2
+                            },
+        "benchmark"       : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "weeklyTradeStrategy_randomActionAgent",
+        "equity"          : 50000.00,
+        "status"          : "D",
+        "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 1
+     },
+     "instance2" : {
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.20,
+                            "IJS": 0.05,
+                            "EFA": 0.15,
+                            "EEM": 0.05,
+                            "AGG": 0.20,
+                            "JNK": 0.05,
+                            "DJP": 0.10,
+                            "GLD": 0.20
+                            },
+        "benchmark"       : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "monthlyTradeStrategy_randomActionAgent",
+        "equity"          : 50000.00,
+        "status"          : "D",
+        "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 1
+     },
+
+      "instance3" : {
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.60,
+                            "IJS": 0.10,
+                            "EFA": 0.15,
+                            "EEM": 0.15
+                            },
+        "benchmark"       : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "quaterlyTradeStrategy_randomActionAgent",
+        "equity"          : 50000.00,
+        "status"          : "D",
+        "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 1
+     },
+
+
+    "instance4" : {
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 1.2,
+                            "GDX": 0.1,
+                            "GLD": 0.1
+                            },
+        "benchmark"       : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "weeklyTradeStrategy_learningAgent1",
+        "equity"          : 50000.00,
+        "status"          : "D",
+        "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 1
+     },
+
+     "instance5" : {
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.20,
+                            "IJS": 0.05,
+                            "EFA": 0.15,
+                            "EEM": 0.05,
+                            "AGG": 0.20,
+                            "JNK": 0.05,
+                            "DJP": 0.10,
+                            "GLD": 0.20
+                            },
+        "benchmark"       : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "monthlyTradeStrategy_learningAgent1",
+        "equity"          : 50000.00,
+        "status"          : "D",
+        "alpha_params"    : [0.2, 0.5, 0.9],
+		"gamma_params"    : [0.2,0.8],
+	    "epsilon_params"  : [0.2,0.8],
+		"total_trials"    : 10
+     },
+
+      "instance6" : {
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.60,
+                            "IJS": 0.10,
+                            "EFA": 0.15,
+                            "EEM": 0.15
+                            },
+        "benchmark"       : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "quaterlyTradeStrategy_learningAgent1",
+        "equity"          : 50000.00,
+        "status"          : "A",
+        "alpha_params"    : [0.2,0.5,0.6],
+		"gamma_params"    : [0.2,0.8],
+	    "epsilon_params"  : [0.2,0.6],
+		"total_trials"    : 1
+     },
+
+       "instance7" : {
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.7,
+                            "GDX": 0.1,
+                            "GLD": 0.2
+                            },
+        "benchmark"       : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "weeklyTradeStrategy_randomLearningAgent",
+        "equity"          : 50000.00,
+        "status"          : "D",
+        "alpha_params"    : [0.2],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 1
+     },
+
+     "instance8" : {
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.20,
+                            "IJS": 0.05,
+                            "EFA": 0.15,
+                            "EEM": 0.05,
+                            "AGG": 0.20,
+                            "JNK": 0.05,
+                            "DJP": 0.10,
+                            "GLD": 0.20
+                            },
+        "benchmark"       : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "monthlyTradeStrategy_randomLearningAgent",
+        "equity"          : 50000.00,
+        "status"          : "D",
+        "alpha_params"    : [0.9],
+		"gamma_params"    : [0.2],
+	    "epsilon_params"  : [0.2],
+		"total_trials"    : 1
+     },
+
+      "instance9" : {
+        "experiment"    : "experiment1",
+        "tickerWeights" : {
+                            "SPY": 0.60,
+                            "IJS": 0.10,
+                            "EFA": 0.15,
+                            "EEM": 0.15
+                            },
+        "benchmark"       : "SPY",
+        "startDate"       : "Dec 2010 04:00AM",
+        "endDate"         : "Oct 2016 12:00AM",
+        "strategy"        : "quaterlyTradeStrategy_randomLearningAgent",
+        "equity"          : 50000.00,
+        "status"          : "D",
+        "alpha_params"    : [0.2,0.5,0.6],
+		"gamma_params"    : [0.2,0.8],
+	    "epsilon_params"  : [0.2,0.6],
+		"total_trials"    : 1
+     }
+
+
+
+
+
+
+
+
+}

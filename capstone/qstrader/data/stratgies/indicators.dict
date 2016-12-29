@@ -1,0 +1,57 @@
+{
+    "rsi_indicators.RSI14" : {
+        "indicator"        : "rsi_indicators.RSI14",
+        "window"           : 14,
+        "status"           : "",
+        "dependencies"     : []
+     },
+     "rsi_indicators.RSI50" : {
+        "indicator"        : "rsi_indicators.RSI50",
+        "window"           : 50,
+        "status"           : "A",
+        "dependencies"     : []
+     },
+
+     "rsi_indicators.RSICrossOver" : {
+        "indicator"        : "rsi_indicators.RSICrossOver",
+        "status"           : "A",
+        "dependencies"     : ["rsi_indicators.RSI14", "rsi_indicators.RSI50"]
+     },
+
+     "rsi_indicators.WeeklyValueChangeCalculator" : {
+        "indicator"        : "rsi_indicators.WeeklyValueChangeCalculator",
+        "window"           : 50,
+        "status"           : "A",
+        "dependencies"     : []
+     },
+
+     "rsi_indicators.MonthlyValueChangeCalculator" : {
+        "indicator"        : "rsi_indicators.MonthlyValueChangeCalculator",
+        "window"           : 50,
+        "status"           : "A",
+        "dependencies"     : []
+     },
+
+     "rsi_indicators.QuaterlyValueChangeCalculator" : {
+        "indicator"        : "rsi_indicators.QuaterlyValueChangeCalculator",
+        "window"           : 50,
+        "status"           : "A",
+        "dependencies"     : []
+     },
+
+     "rsi_indicators.movingAverage" : {
+        "indicator"        : "rsi_indicators.movingAverage",
+        "window"           : 50,
+        "status"           : "A",
+        "dependencies"     : []
+     },
+      "demark_indicators.TDSequential" : {
+        "indicator"        : "demark_indicators.TDSequential",
+        "window"           : 100,
+        "status"           : "A",
+        "dependencies"     : []
+     }
+
+
+
+}
