@@ -1,0 +1,255 @@
+Number of arguments: 9 arguments.
+Argument List: ['agent.py', '--debug=0', '--trials=10', '--alpha=0.5', '--gamma=0.5', '--epsilon=0.5', '--agentType=RandomActionAgent', '--start=random', '--destination=random']
+Debug Pause : 0
+Agent Type  : RandomActionAgent
+None
+Agent Type: RandomActionAgent
+Debug: 0
+*********************** Simulating  Agent ********************************
+
+Simulator.run(): Trial 0
+Environment.reset(): Trial set up with start = (5, 3), destination = (1, 1), deadline = 30
+RoutePlanner.route_to(): destination = (1, 1)
+h
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 30, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 0.5, next_waypoint = forward
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 29, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = -1, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 28, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 0.5, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 27, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 2, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 26, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = -1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 25, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 2, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 24, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 0.5, next_waypoint = forward
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 23, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = -1, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 22, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 21, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 0.5, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 20, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 19, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = 0.5, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 18, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 17, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 16, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 0.5, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 15, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 14, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = 0.5, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 13, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = 2, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 12, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = forward
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 11, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = forward
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 10, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = forward
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 9, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = forward
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 8, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 0.5, next_waypoint = forward
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 7, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = 2, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 6, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 0.5, next_waypoint = forward
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 5, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = 2, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 4, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = 0.5, next_waypoint = forward
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 3, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = -1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 2, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = 0.5, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 1, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 0, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 2, next_waypoint = right
+Simulator.run(): Trial 1
+Environment.reset(): Trial set up with start = (5, 3), destination = (1, 1), deadline = 30
+RoutePlanner.route_to(): destination = (1, 1)
+h
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 30, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = -1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 29, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 28, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 27, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 26, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 25, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = 0.5, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 24, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = -1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 23, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = -1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 22, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 21, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 20, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = 0.5, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 19, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = -1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 18, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = 0.5, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 17, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 16, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = 0.5, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 15, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 14, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = -1, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 13, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = -1, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 12, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = 2, next_waypoint = left
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+Simulator.run(): Trial 2
+Environment.reset(): Trial set up with start = (5, 3), destination = (1, 1), deadline = 30
+RoutePlanner.route_to(): destination = (1, 1)
+h
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 30, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = 0.5, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 29, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 28, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 27, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 26, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 2, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 25, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = -1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 24, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = forward, reward = 0.5, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+RandomActionAgent.update(): deadline = 23, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 22, inputs = {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, action = right, reward = 2, next_waypoint = right
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 21, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = left, reward = -1, next_waypoint = forward
+h
+RandomActionAgent : Update CALLED ********************* 
+random choice
+RandomActionAgent.update(): deadline = 20, inputs = {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, action = None, reward = 1, next_waypoint = forward

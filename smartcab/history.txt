@@ -1,0 +1,16 @@
+
+
+v1.0 : Oct 13
+
+	* First submission
+	* Please download all the files and run agent.py
+	* Modified environment.py and simulator.py to support addtional params for configuring Dummy Agents and start/dest
+	  from the main program. This is very useful to run with multiple params and dummy agents and observe the behaviour
+
+v1.2  Oct 23
+
+	* Addressed feedback from instructor. 
+	* Implemented several automation tools, scripts to enable running experiments effectively -no manual
+	* Program to summarize the top rewarding/completing trials - showing optimal values
+
+
